@@ -8,7 +8,7 @@ const fetchVideoInfo = require('youtube-info');
 
 const YouTube = require('simple-youtube-api');
 
-const youtube = new YouTube("xECsjnnX44DcMQ1qLtThq6PJhz3x2fe_");
+const youtube = new YouTube("t_HsV7HgnHV2w1CMdcYkxC6JgDEDTjxP");
 
 const queue = new Map();
 
@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = ":!";
+const prefix = "m!";
 /////////////////////////
 ////////////////////////
 
@@ -344,12 +344,12 @@ client.on('message', message => {
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
+      console.log(`Desert Bot- Script By : ROTTA`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : ROTTA ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`yplay | Youtube`,"http://twitch.tv/Death Shop")
+client.user.setGame(`m! BY ROTTA`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
